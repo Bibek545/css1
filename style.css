@@ -1,0 +1,16 @@
+p {
+    color:red;
+    background-color: blue;
+    height: 200px;
+    text-align: center;
+    justify-content: flex-end;
+    font-weight: 900;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+ }
+
+ .gift {
+    color:azure;
+    background-color: red;
+
+ }
