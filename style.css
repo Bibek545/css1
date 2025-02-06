@@ -1,4 +1,4 @@
-p {
+.user-profile {
     color:red;
     background-color: blue;
     height: 200px;
@@ -10,7 +10,78 @@ p {
  }
 
  .gift {
-    color:azure;
+    color:black;
     background-color: red;
 
  }
+
+ body {
+    color:blue;
+ }
+/*
+ * {
+    background-color: yellow;
+ } */
+
+ /*parent {
+    color: purple;
+ }*/
+ /*descendant */
+
+ parent children {
+    color:orange;
+ }
+/* immediate children */
+ parent > children {
+    color: brown;
+ }
+ /*adjacent siblings*/
+  children + children {
+    color: burlywood;
+  }
+/* sibiling */
+ .daddy ~ .article {
+    color: red;
+
+ }
+ 
+ .daddy + .article {
+    width: 400px;
+    height: 400px;
+    margin: 10px 20px;
+    border: 15px 15px;
+ } 
+
+ .article {
+    font-size: 30px;
+    background-color: brown;
+    /*
+    width: 400px;
+    height: 400px;
+    margin: 10px 20px;
+    border: 15px 15px;*/
+ }
+ [randomAttr] {
+    background-color:yellow;
+ }
+ /* Attribute Selector */
+
+ p ::first-letter {
+    width: 300px;
+ }
+
+ button {
+    color:red;
+ }
+
+h2 :hover {
+    color: black;
+ }
+li:nth-child(3) {
+    background-color: yellow;
+
+}
+
+li:nth-of-type(GTA V){
+    background-color: black;
+}
